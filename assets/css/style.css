@@ -1,0 +1,45 @@
+@font-face {
+    src: url(../fonts/Segoe\ UI.ttf);
+    font-family: sego;
+}
+
+@font-face {
+    src: url(../fonts/Segoe\ UI\ Bold.ttf);
+    font-family: sego-bold;
+}
+
+
+/* ==== Header CSS Start ==== */
+.header-area {
+    background: linear-gradient(to right ,#4A61FD,#369EEA);
+    padding: 20px 0;
+}   
+.header-area .logo h2 {
+    color: #fff;
+}
+.page-mainpanel {
+    background: #FAFAFA;
+}
+
+/* forget password option  */
+.forget-pass-form .forget-pass-icon i {
+    font-size: 40px;
+    padding-bottom:30px ;
+}
+.forget-pass-form-crediendials {
+    margin: 30px 50px;
+}
+.forget-pass-text p {
+    font-family: tahoma;
+    color: #b9a2a2;
+    font-size: 14px;
+}
+
+/* end of forget pass option  */
+
+/*============== setup new password css  =================*/
+.setup-new-forget-pass-icon i {
+    font-size: 50px;
+}
+
+/*============= end setup new password css  ===============*/
