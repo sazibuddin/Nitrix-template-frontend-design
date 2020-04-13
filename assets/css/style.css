@@ -41,5 +41,119 @@
 .setup-new-forget-pass-icon i {
     font-size: 50px;
 }
-
 /*============= end setup new password css  ===============*/
+/*============= login page css  ===============*/
+.login-panel {
+    width: 350px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+.login-page {
+    background: linear-gradient(to right ,#4A61FD,#37B3E2);
+    min-height: 100vh;
+}
+.login-logo h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: block;
+    padding: 30px 0;
+}
+.login-panel input {
+    height: 37px;
+    background: #fff;
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 0.125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 0 5px;
+}
+.login-form-header p {
+    position: relative;
+    margin-top: 20px;
+}
+.login-form-header p:before {
+    content: "";
+    clear: both;
+    display: block;
+    height: 1px;
+    background: #bbb;
+    position: absolute;
+    width: 53px;
+    top: 12px;
+    left: -6px;
+}
+
+.login-form-header p:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 1px;
+    background: #bbb;
+    position: absolute;
+    width: 53px;
+    top: 12px;
+    right: -6px;
+}
+.login-forgrt-pass a {
+    color: blue;
+    text-decoration: none;
+    font-size: 13px;
+}
+.login-footer p {
+    font-size: 13px;
+}
+.login-footer p a {
+    color: blue;
+    text-decoration: none;
+}
+/*============= end of login page css  ===============*/
+/*============= create add page css  ===============*/
+.create-add-single {
+    position: relative;
+    overflow: hidden;
+}
+.create-add-single-icon i {
+    font-size: 80px;
+}
+.create-add-single-content h4 {
+    margin-top: 20px;
+    color: #7C808C;
+}
+.create-add-single-content p {
+    font-size: 15px;
+    margin: 30px 0;
+    color: #9D9FA9;
+}
+.create-add-shadow {
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s;
+}
+.create-add-shadow i {
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+    position: absolute;
+    top: 15%;
+}
+.create-add-single:hover .create-add-shadow {
+    opacity: 1;
+}
+
+/*============= end of create add page css  ===============*/
+/*=============  create add 2 page css  ===============*/
+.create-compagin-left {
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+}
+.create-compagin-right p {
+    text-align: justify;
+}
+/*=============  end of create add 2 page css  ===============*/

@@ -9,14 +9,10 @@
     <title>Login page</title>
     <!--====== Bootstrap css ======-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!--====== Animate css ======-->
-    <link href="assets/css/animate.min.css" rel="stylesheet">
     <!--====== Fontawesome css ======-->
     <link href="assets/css/fontawesome.min.css" rel="stylesheet">
     <!--====== Default css ======-->
     <link href="assets/css/default.css" rel="stylesheet">
-    <!--====== jquery ui ======-->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!--====== Style css ======-->
     <link href="assets/css/style.css" rel="stylesheet">
     <!--====== Responsive css ======-->
@@ -24,27 +20,44 @@
   </head>
   <body>
       <div class="page-mainpanel">
-        
+        <div class="login-page">
+          <div class="login-logo">
+            <h1>Nitrx</h1>
+          </div>
+              <div class="login-panel shadow-sm text-center" style="background: #D6DEEE;">
+                 <div class="login-form-header">
+                  <h5>Say <b>hello</b>to the <b>future</b></h5>
+                  <p><i>login to your account</i></p>
+                 </div>
+                 <form action="#" id="loginForm">
+                   <div class="form-gorup">
+                    <input type="text" name="username" placeholder="Username *">
+                   </div>
+                   <div class="form-group">
+                    <input type="password" name="password" placeholder="Passowrd">
+                   </div>
+                   <div class="login-forgrt-pass">
+                    <a href="#">Forget you passwprd ? </a>
+                   </div>
+                   <hr>
+                   <div class="form-group">
+                    <button type="submit" class="btn btn-primary rounded-0 btn-block">Login</button>
+                   </div>  
+                 </form>
+                 <div class="login-footer">
+                   <p>Dont have an account ? <a href="#">Signup now</a></p>
+                 </div>
+              </div>
+        </div>
       </div>
 
-    <footer class="footer-area">
-        <div class="copyright-section">
-          <!-- <p>Copyright &copy; Joinoffers</p> -->
-        </div>
-      </footer>
+
       <!--====== jquery js ======-->
       <script src="assets/js/jquery.min.js"></script>
       <!--====== Popper js ======-->
       <script src="assets/js/Popper.js"></script>
       <!--====== Bootstrap js ======-->
       <script src="assets/js/bootstrap.min.js"></script>
-      <!--====== Jquery easing js ======-->
-      <script src="assets/js/jquery.easing.min.js"></script>
-      <!--====== wow js ======-->
-      <script src="assets/js/wow.min.js"></script>
-      <!--====== Owl carousel js ======-->
-      <script src="assets/js/owl.carousel.min.js"></script>
-      <!-- <script src="assets/js/mixitup.min.js"></script> -->
       <!--====== Main js ======-->
       <script src="assets/js/main.js"></script>
     </body>

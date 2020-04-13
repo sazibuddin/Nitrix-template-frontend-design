@@ -4,12 +4,28 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* default placeholder color  */
+::placeholder {
+	color: #D3DAE2;
+	opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #D3DAE2;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #D3DAE2;
+  }
+/* end of default placeholder color  */
+
 .main-heading {
 	color: #494E5F;
 	font-family: 'Baloo Paaji 2', cursive;
 	font-weight: bold;
 	text-align: center;
-	margin: 25px 0;
+	padding: 25px 0;
 }
 .border-bottom-input {
     width: 100%;
@@ -26,7 +42,10 @@ h1 {
 }
 h3 {}
 h3 {}
-h4 {}
+h4 {
+	font-family: tahoma;
+    font-weight: 500;
+}
 h5 {}
 h6 {
     font-family: tahoma;
