@@ -8,28 +8,62 @@
     font-family: sego-bold;
 }
 
+/** Custom navbar start **/
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+
+/** Custom navbar end **/
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 /* ==== Header CSS Start ==== */
+
 .header-area {
-    background: linear-gradient(to right ,#4A61FD,#369EEA);
+    background: linear-gradient(to right, #4A61FD, #369EEA);
     padding: 20px 0;
-}   
+}
+
 .header-area .logo h2 {
     color: #fff;
 }
+
 .header-area .logo h2 img {
     width: 4%;
     margin-top: -8px
 }
+
 .page-mainpanel {
     background: #FAFAFA;
 }
+
 /* newfeed header area css  */
+
 /* .main-header-area {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 } */
+
 .header-main-icon a {
     color: #ffffff;
     display: block;
@@ -37,6 +71,7 @@
     font-size: 25px;
     position: relative;
 }
+
 .header-main-icon a sup {
     background: #F5A623;
     height: 22px;
@@ -53,6 +88,7 @@
 /*end of newfeed header area css  */
 
 /* notification-ara css */
+
 .notification-area {
     background: #fff;
     width: 444px;
@@ -61,24 +97,31 @@
     border-radius: 4px;
     display: none;
 }
+
 .notification-single a {
     width: 85%;
     font-size: 14px;
     text-decoration: none;
     color: #000000;
 }
+
 .notification-single a:hover {
     color: #E0BAF0;
 }
+
 /*end of notification-ara css */
+
 /* forget password option  */
+
 .forget-pass-form .forget-pass-icon i {
     font-size: 40px;
-    padding-bottom:30px ;
+    padding-bottom: 30px;
 }
+
 .forget-pass-form-crediendials {
     margin: 30px 50px;
 }
+
 .forget-pass-text p {
     font-family: tahoma;
     color: #b9a2a2;
@@ -88,21 +131,27 @@
 /* end of forget pass option  */
 
 /*============== setup new password css  =================*/
+
 .setup-new-forget-pass-icon i {
     font-size: 50px;
 }
+
 /*============= end setup new password css  ===============*/
+
 /*============= login page css  ===============*/
+
 .login-panel {
     width: 350px;
     margin: auto;
     padding: 50px;
     border-radius: 5px;
 }
+
 .login-page {
-    background: linear-gradient(to right ,#4A61FD,#37B3E2);
+    background: linear-gradient(to right, #4A61FD, #37B3E2);
     min-height: 100vh;
 }
+
 .login-logo h1 {
     color: #fff;
     text-align: center;
@@ -110,9 +159,11 @@
     display: block;
     padding: 30px 0;
 }
+
 .login-logo h1 img {
     width: 4%;
 }
+
 /* .login-panel input {
     height: 37px;
     background: #fff;
@@ -121,10 +172,12 @@
     box-shadow: 0 0.125rem .25rem rgba(0,0,0,.075)!important;
     padding: 0 5px;
 } */
+
 .login-form-header p {
     position: relative;
     margin-top: 20px;
 }
+
 .login-form-header p:before {
     content: "";
     clear: both;
@@ -148,38 +201,48 @@
     top: 12px;
     right: -6px;
 }
+
 .login-forgrt-pass a {
     color: blue;
     text-decoration: none;
     font-size: 13px;
 }
+
 .login-footer p {
     font-size: 13px;
 }
+
 .login-footer p a {
     color: blue;
     text-decoration: none;
 }
+
 /*============= end of login page css  ===============*/
+
 /*============= create add page css  ===============*/
+
 .create-add-single {
     position: relative;
     overflow: hidden;
 }
+
 .create-add-single-icon i {
     font-size: 80px;
 }
+
 .create-add-single-content h4 {
     margin-top: 20px;
     color: #7C808C;
 }
+
 .create-add-single-content p {
     font-size: 15px;
     margin: 30px 0;
     color: #9D9FA9;
 }
+
 .create-add-shadow {
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
     position: absolute;
     top: 0;
     left: 0;
@@ -189,6 +252,7 @@
     opacity: 0;
     transition: .5s;
 }
+
 .create-add-shadow i {
     color: #fff;
     font-size: 35px;
@@ -196,62 +260,81 @@
     position: absolute;
     top: 15%;
 }
+
 .create-add-single:hover .create-add-shadow {
     opacity: 1;
 }
 
 /*============= end of create add page css  ===============*/
+
 /*=============  create add 2 page css  ===============*/
+
 .create-compagin-left {
     border-right: 1px solid #ccc;
     overflow: hidden;
 }
+
 .create-compagin-right p {
     text-align: justify;
 }
+
 /*=============  end of create add 2 page css  ===============*/
+
 /*============= setup account page css  ===============*/
+
 .setup-account-form {
     padding: 40px;
 }
+
 .setup-account-icon i {
     font-size: 60px;
     color: #494E5F;
 }
+
 .setup-account-text {
     padding: 20px 0;
 }
+
 .setup-account-text h5 {
     color: #494E5F;
 }
+
 .setup-account-text h6 {
     color: #b5b7c1;
     padding-top: 8px;
 }
+
 /*============= end of setup account page css  ===============*/
+
 /*============= interest select  page css  ===============*/
+
 .interest-select-header {
     padding: 30px 0;
 }
+
 .interest-select-header h3 {
-color: #494E5F;
-font-family: 'Baloo Paaji 2', cursive;
-font-weight: bold;
-text-align: center;
-font-size: 35px;
+    color: #494E5F;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
 }
+
 .interest-select-header p {
     color: #494E5F;
-font-family: tahoma;
-font-weight: 600;
+    font-family: tahoma;
+    font-weight: 600;
 }
+
 .interest-select-image {
     position: relative;
     text-align: center;
 }
+
 .interest-select-single .interest-select-image img {
     width: 100%;
 }
+
 .interest-select-image-shadow {
     background: rgba(0, 0, 0, 0.49);
     position: absolute;
@@ -263,6 +346,7 @@ font-weight: 600;
     /* opacity: 0; */
     transition: .25s;
 }
+
 .interest-select-text {
     color: #a9acbb;
     position: absolute;
@@ -272,6 +356,7 @@ font-weight: 600;
     font-size: 20px;
     transition: .25s;
 }
+
 .interest-select-icon i {
     color: #ffffff;
     position: absolute;
@@ -283,39 +368,52 @@ font-weight: 600;
     transition: .25s;
     opacity: 0;
 }
+
 .interest-select-image:hover .interest-select-image-shadow {
     opacity: 0;
 }
+
 .interest-select-image:hover .interest-select-text {
     color: #ffffff;
 }
+
 .interest-select-image:hover .interest-select-icon i {
     opacity: 1;
 }
+
 /*============= end of interest select  page css  ===============*/
+
 /*============= newsfeed  page css  ===============*/
+
 .navbar-expand-lg .navbar-nav {
     margin: auto;
     text-align: center;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: #a3a4ab;
     font-family: 'Baloo Paaji 2', cursive;
     padding: 5px 22px;
+    border-bottom: 1px solid #f8f9fa;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #3C8BEF;
     border-bottom: 1px solid #3C8BEF;
 }
+
 .newsfeed-single {
     margin-top: 10px;
 }
+
 .newsfeed-single-img img {
     width: 100%;
 }
+
 .newsfeed-single-img {
     position: relative;
 }
+
 .newsfeed-single-shadow {
     background: #444854a3;
     position: absolute;
@@ -329,29 +427,36 @@ font-weight: 600;
     height: 16%;
     overflow: hidden;
 }
+
 .newsfeed-single-shadow h6 {
     color: #ffffff;
     padding: 10px 0 0 10px;
 }
+
 .link-and-rate-btn {
     padding: 8px 0;
     display: none;
     opacity: 0;
 }
+
 .newsfeed-single-shadow a {
     color: #ffffff;
     padding: 10px 0 0 10px;
     text-decoration: none;
     font-size: 13px;
 }
+
 .newsfeed-single-shadow a i {
     font-weight: normal;
     font-size: 14px;
 }
+
 .newsfeed-single-img:hover .newsfeed-single-shadow {
     height: 28%;
 }
+
 .newsfeed-single-img:hover .link-and-rate-btn {
     opacity: 1;
 }
+
 /*=============end of newsfeed  page css  ===============*/
