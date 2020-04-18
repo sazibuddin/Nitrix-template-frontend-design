@@ -574,3 +574,120 @@
     margin-top: 7px;
 }
 /*=============end of people search  page css  ===============*/
+
+
+/*============= post page css  =============*/
+.post-authore-profile-picture img {
+    width: 50px;
+    margin-right: 12px;
+}
+.post-authore-profile-info {
+    margin-top: 4px;
+}
+.post-authore-profile-info h6 {
+    margin: 0;
+    padding: 0;
+    color: #6A76AC;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+}
+.post-authore-profile-info p {
+    margin: 2px 0 0 0;
+    padding: 0;
+    color: #aaafb3;
+    font-size: 12px;
+    font-family: Roboto,sans-serif;
+}
+.post-image img {
+    width: 100%;
+}
+.post-comment-like-share-area {
+    overflow: hidden;
+}
+.post-comment-like-share-area .like-share {
+    width: 50%;
+}
+.like-share ul li {
+    padding: 0 10px;
+    list-style: none;
+}
+.like-share ul li a {
+    text-decoration: none;
+    font-family: Rohoto;
+    font-size: 14px;
+    color: #888282;
+}
+.like-share ul li img {
+    /* width: 21px; */
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.post-content-area  {
+    padding-bottom: 20px;
+}
+.post-content-area h6 {
+    color: #7b7d82;
+    font-weight: bold;
+}
+.post-content-area p {
+    font-size: 15px;
+    color: #4E5363;
+    margin-top: 10px;
+}
+.comment-form {
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 40%;
+}
+.total-comment-count {
+    margin-left: 13%;
+}
+.total-comment-count h6 {
+    color: #7b7d82;
+    margin-top: 10px;
+}
+.comment-authore-profile-info h6 {
+    margin: 0;
+    padding: 0;
+    color: #6A76AC;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+}
+.comment-authore-profile-info p {
+    margin: 2px 0 0 0;
+    padding: 0;
+    color: #a29c9c;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+}
+.qr-code i {
+    font-size: 60px;
+    margin-right: 20px;
+}
+.comment-like-replay li {
+    list-style: none;
+}
+.comment-like-replay li a {
+    text-decoration: none;
+    padding-right:15px ;
+    font-size: 13px;
+    color: #494E5F;
+    font-family: Roboto,sans-serif;
+}
+.comment-rating-area ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.comment-rating-area ul li a {
+    padding: 10px 15px;
+    display: block;
+    border: 1px solid #E8E8E8;
+    color: #E8E8E8;
+    font-size: 25px;
+    transition: .25s;
+}
+.comment-rating-area ul li a:hover {
+    color: #73F001;
+}
+/*============= end of post page css  =============*/
