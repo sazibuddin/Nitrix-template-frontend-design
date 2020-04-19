@@ -691,3 +691,10 @@
     color: #73F001;
 }
 /*============= end of post page css  =============*/
+/*============= terms of services page css  =============*/
+.terms-of-service-main p {
+    font-size: 16px;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: justify;
+}
+/*=========== end of terms of services page css =========*/
