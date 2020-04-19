@@ -64,6 +64,18 @@
     justify-content: space-between;
 } */
 
+/* form control focus remove bootstrap */
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+/* form control focus remove bootstrap end */
+
 .header-main-icon a {
     color: #ffffff;
     display: block;
@@ -111,7 +123,9 @@
 }
 
 /*end of notification-ara css */
+
 /*start setting-area css */
+
 .feed-setting-area {
     width: 200px;
     border-radius: 2px;
@@ -121,19 +135,24 @@
     z-index: 99;
     padding: 5px 10px;
 }
+
 .feed-setting-area ul {
     list-style: none;
 }
+
 .feed-setting-area a {
     color: #747885;
     text-decoration: none;
 }
+
 .feed-setting-area ul li {
     padding: 10px 7px;
 }
+
 .feed-setting-area {
     display: none;
 }
+
 /*end of setting-area css */
 
 /* forget password option  */
@@ -386,7 +405,8 @@
     color: #ffffff;
     position: absolute;
     text-align: center;
-    top: 36%;
+    top: 43%;
+    left: 43%;
     margin: auto;
     font-size: 34px;
     font-weight: normal;
@@ -483,37 +503,48 @@
 }
 
 /*=============end of newsfeed  page css  ===============*/
+
 /*=============wallet  page css  ===============*/
+
 .wallet-main .blance img {
     width: 26px;
     height: 26px;
     margin-top: 4px;
     margin-right: 13px;
 }
+
 .wallet-single .blance i {
     font-size: 25px;
     margin: 8px 14px 0 4px;
     color: #595E6D;
 }
+
 .wallet-main .blance h3 {
     color: #595E6D;
     font-weight: normal;
 }
+
 .wallet-label {
     color: #595E6D;
     font-weight: bold;
 }
+
 .blance {
     border-bottom: 1px solid #d6d6d6;
 }
+
 /*=============end of wallet  page css  ===============*/
+
 /*=============setting  page css  ===============*/
+
 .setting-left {
     padding: 30px;
 }
+
 .setting-right {
     padding: 30px;
 }
+
 .setting-left input, .setting-left select {
     border-top: none;
     border-left: none;
@@ -523,9 +554,11 @@
     border-bottom: 1px solid #cccccc;
     font-family: sego;
 }
+
 .switch-single {
     margin: 15px 0;
 }
+
 .cash-data-setting a {
     font-weight: 600;
     color: #4D5AFF;
@@ -533,6 +566,7 @@
     font-family: sego;
     font-size: 16px;
 }
+
 .devactive-close-single a {
     text-decoration: none;
     color: #c0b3b3;
@@ -540,20 +574,26 @@
     font-weight: 500;
     padding: 4px 4px;
 }
+
 .devactive-close-single a i {
     font-size: 27px;
     font-weight: normal;
     margin-top: 6px;
 }
+
 /*=============end of setting  page css  ===============*/
+
 /*=============people search  page css  ===============*/
+
 .people-search-single {
     margin-top: 15px;
     padding: 0 20px;
 }
+
 .search-profile-picture img {
     width: 45px;
 }
+
 .search-profile-info {
     margin-left: 11px;
 }
@@ -562,17 +602,20 @@
     margin: 0;
     padding: 0;
 }
+
 .search-profile-info p {
     margin: 0;
     padding: 0;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     color: #8F929D;
     font-weight: normal;
     font-size: 14px;
 }
+
 .follow-status {
     margin-top: 7px;
 }
+<<<<<<< HEAD
 /*=============end of people search  page css  ===============*/
 
 
@@ -698,3 +741,7 @@
     text-align: justify;
 }
 /*=========== end of terms of services page css =========*/
+=======
+
+/*=============end of people search  page css  ===============*/
+>>>>>>> 3527cd43be39ff759d391eb0685224f3b2cc65f1
