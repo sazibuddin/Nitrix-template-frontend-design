@@ -615,7 +615,6 @@ button:focus {
 .follow-status {
     margin-top: 7px;
 }
-<<<<<<< HEAD
 /*=============end of people search  page css  ===============*/
 
 
@@ -729,7 +728,7 @@ button:focus {
     color: #E8E8E8;
     font-size: 25px;
     transition: .25s;
-}
+}   
 .comment-rating-area ul li a:hover {
     color: #73F001;
 }
@@ -741,7 +740,88 @@ button:focus {
     text-align: justify;
 }
 /*=========== end of terms of services page css =========*/
-=======
+
+
 
 /*=============end of people search  page css  ===============*/
->>>>>>> 3527cd43be39ff759d391eb0685224f3b2cc65f1
+/*=============single profile page css  ===============*/
+.single-profile-info-img {
+    position: relative;
+}
+.single-profile-info-img img {
+    width: 100%;
+}
+.single-profile-name h2 {
+    font-family: Roboto,sans-serif;
+}
+.single-profile-follow {
+    margin-top: 6px;
+}
+.single-profile-follow-post-details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-profile-follow-post-details ul li:first-child {
+    padding-left: 0;
+}
+.single-profile-follow-post-details ul li {
+    padding: 10px 25px;
+}
+.single-profile-follow-post-details ul li a i {
+    color: #C0CBD5;
+}
+.single-profile-follow-post-details ul li a span {
+    color: #494E5F;
+    margin-left: 5px;
+    font-family: Roboto,sans-serif;
+}
+.single-profile-about-content p {
+    font-family: Roboto,sans-serif;
+    color: #565A6A;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.single-profile-qrcode-area i {
+    font-size: 60px;
+}
+.qrcode-text a {
+    font-size: 13px;
+    margin: 6px 0;
+    display: block;
+}
+.qrcode-text p {
+    font-size: 13px;
+    color: #898989;
+}
+.user-score {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* line-height: 100px; */
+    text-align: center;
+    /* background: red; */
+    overflow: hidden;
+    padding-top: 10px;
+    position: absolute;
+    right: -35px;
+    bottom: -32px;
+    background: white;
+}
+.user-score p {
+    margin: 0;
+    padding:0;
+    font-size: 12px;
+    color: #AEAEAE;
+    font-family: Roboto,sans-serif;
+}
+.user-score i {
+    color: #DC530C;
+    font-weight: bold;
+}
+.user-score h4 {
+    color: #DC530C;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+}
+/*=============end of single profile page css  ===============*/
