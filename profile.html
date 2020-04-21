@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--====== Title ======-->
-  <title>Other profile </title>
+  <title>profile || my profile </title>
   <!--====== Bootstrap css ======-->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <!--====== Animate css ======-->
@@ -17,6 +17,8 @@
   <link href="assets/flaticon/flaticon.css" rel="stylesheet">
   <!--====== Default css ======-->
   <link href="assets/css/default.css" rel="stylesheet">
+  <!--====== imageuploadify css ======-->
+  <link href="assets/css/imageuploadify.min.css" rel="stylesheet">
   <!--====== Style css ======-->
   <link href="assets/css/style.css" rel="stylesheet">
   <!--====== Responsive css ======-->
@@ -130,40 +132,30 @@
   <!-- main panel start  -->
   <div class="page-mainpanel pb-5">
     <!-- top hading  -->
-    <!-- single person profile area  -->
+    <!-- My profile  area  -->
     <div class="container">
       <div class="col-md-10 offset-md-1">
-        <div class="single-profile-page">
-            <div class="single-profile-info-area shadow-sm bg-white mt-4">
+        <div class="my-profile-page">
+            <div class="my-profile-info-area shadow-sm bg-white mt-4">
                 <div class="row">
                     <div class="col-md-3 col-lg-3 ml-0 pl-0 mr-0 pr-0">
-                        <div class="single-profile-info-img">
+                        <div class="my-profile-info-img">
                             <img src="assets/img/people/Blake-profile-photo-square.jpg" alt="">
                             <div class="user-score shadow-lg">
                               <p>user score</p> 
-                              <i class="fas fa-running"></i>
-                              <h4>202</h4>
+                              <i class="fas fa-rocket" style="color: #60DF00;"></i>
+                              <h4 style="color: #60DF00;">202</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="single-profile-info-details mt-3">
-                            <div class="single-profile-name-follow d-flex justify-content-between">
+                            <div class="single-profile-name-follow d-flex justify-content-start">
                                 <div class="single-profile-name">
                                     <h2>Charles H</h2>
                                 </div>    
-                                <div class="single-profile-follow">
-                                    <button type="button" class="btn btn-primary">Follow</button>
-                                    <div class="btn-group dropleft">
-                                        <button type="button" class="btn btn-outline-primary rounded" data-toggle="dropdown" style="padding: 10px 14px;" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-angle-down"></i>
-                                        </button>
-                                        <div class="dropdown-menu">
-                                          <!-- Dropdown menu links -->
-                                          <a class="dropdown-item" href="#">Block</a>
-                                          <a class="dropdown-item" href="#">Report</a>
-                                        </div>
-                                      </div>
+                                <div class="single-profile-follow ml-3">
+                                    <a href="edit-profile.html" class="btn btn-outline-primary btn-sm">Edit</a>
                                 </div>    
                             </div>
                         </div>
@@ -190,64 +182,74 @@
                     </div>
                 </div>
             </div>
-            <div class="single-profile-recent-post-area mt-5">
+            <!-- my profile recent post area  -->
+            <div class="my-profile-recent-post-area mt-5">
               <p style="color: #9B9B9B;text-align: center;font-size: 18px;font-family: Roboto,sans-serif;">Recent post</p>
               <div class="recent-post-main mt-3">
                 <div class="row">
-                  <!-- post single  -->
+                      <!-- create post single  -->
                   <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
+                    <div class="create-my-post-single">
+                        <div class="create-my-post-content">
+                            <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <i class="fas fa-file-medical"></i>
+                        <p>Add new</p>
+                    </a>
+                    </div>
+                    </div>
+                  </div>
+                  <!--end of create post single  -->
+                  <!-- my post single  -->
+                  <div class="col-md-4 col-lg-4 p-2">
+                    <div class="my-post-single">
+                      <div class="my-post-single-img">
                         <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
+                        <div class="my-post-single-shadow">
                           <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
+                         
                         </div>
+                        <div class="my-post-action-area">
+                            <div class="btn-group dropleft">
+                                <button type="button" class="btn btn-link text-white" data-toggle="dropdown" style="padding: 10px 14px;" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu" x-placement="left-start" style="position: absolute; transform: translate3d(-162px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                  <!-- Dropdown menu links -->
+                                  <a class="dropdown-item" href="#">Block</a>
+                                  <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                              </div>
+                          </div>
                       </div>
                     </div>
                   </div>
-                  <!--end of post single  -->
-                  <!-- post single  -->
-                  <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
+                  <!--end of my post single  -->
+                   <!-- my post single  -->
+                   <div class="col-md-4 col-lg-4 p-2">
+                    <div class="my-post-single">
+                      <div class="my-post-single-img">
                         <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
+                        <div class="my-post-single-shadow">
                           <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
+                         
                         </div>
+                        <div class="my-post-action-area">
+                            <div class="btn-group dropleft">
+                                <button type="button" class="btn btn-link text-white" data-toggle="dropdown" style="padding: 10px 14px;" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu" x-placement="left-start" style="position: absolute; transform: translate3d(-162px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                  <!-- Dropdown menu links -->
+                                  <a class="dropdown-item" href="#">Block</a>
+                                  <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                              </div>
+                          </div>
                       </div>
                     </div>
                   </div>
-                  <!--end of post single  -->
-                  <!-- post single  -->
-                  <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
-                        <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
-                          <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--end of post single  -->
+                  <!--end of my post single  -->
+                  
                 </div>
               </div>
             </div>
@@ -255,6 +257,62 @@
       </div>
     </div>
     <!-- end of single person profile area  -->
+
+    <!-- create new post modal  -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          
+          <div class="modal-body m-0 p-0">
+            <div class="create-postheader-text text-center bg-primary p-3">
+              <h5 class="text-white">Create a new post</h5>
+            </div>
+            <hr>
+            <div class="new-post-form m-3">
+              <form action="#" id="newpostForm">
+                <div class="row">
+                  <div class="col-md-5 col-lg-5">
+                    <input type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" multiple>
+                  </div>
+                  <div class="col-md-7 col-lg-7 pr-4">
+                      <div class="form-group">
+                        <label for="title">Post title</label>
+                        <input type="text" class="border-bottom-input" placeholder="Enter a bried title">
+                      </div>
+                      <div class="form-group">
+                        <label for="title">Website</label>
+                        <input type="text" class="border-bottom-input" placeholder="Add the url this post link to">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="category">Category</label>
+                        <select name="category" id="category" class="border-bottom-input">
+                          <option value="1">laravel</option>
+                          <option value="1">node js</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="keyword">Keyword</label>
+                        <input type="text" class="border-bottom-input" placeholder="Type in keyword associate in this psot">
+                      </div>
+                  </div>
+                  <div class="col-md-12 col-lg-12">
+                    <div class="form-group mt-3">
+                      <label for="description">Description</label>
+                    <textarea name="description" id="description" rows="5" class="form-control" placeholder="Desribe additional post about this post"></textarea>
+                    </div>
+                  </div>
+              </div>
+              <div class="form-group text-center mb-5">
+                <input type="submit" class="btn btn-primary rounded-0" value="Finished post">
+              </div>
+              </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end create new post modal  -->
   </div>
   <!-- end of mainpanel  -->
 
@@ -271,6 +329,8 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <!--====== Jquery easing js ======-->
   <script src="assets/js/jquery.easing.min.js"></script>
+  <!--====== imageuploadify js ======-->
+  <script src="assets/js/imageuploadify.min.js"></script>
   <!--====== Main js ======-->
   <script src="assets/js/main.js"></script>
   <script>
@@ -284,7 +344,25 @@
     });
   </script>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('input[type="file"]').imageuploadify();
+  })
+</script>
+<script type="text/javascript">
 
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36251023-1']);
+_gaq.push(['_setDomainName', 'jqueryscript.net']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
 
 
 

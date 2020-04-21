@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--====== Title ======-->
-  <title>Other profile </title>
+  <title> Edit profile || my profile </title>
   <!--====== Bootstrap css ======-->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <!--====== Animate css ======-->
   <link href="assets/css/animate.min.css" rel="stylesheet">
   <!--====== Fontawesome css ======-->
   <link href="assets/css/fontawesome.min.css" rel="stylesheet">
+  <!--====== fancybox css ======-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
   <!--====== flaticon css ======-->
   <link href="assets/flaticon/flaticon.css" rel="stylesheet">
   <!--====== Default css ======-->
@@ -130,127 +132,62 @@
   <!-- main panel start  -->
   <div class="page-mainpanel pb-5">
     <!-- top hading  -->
-    <!-- single person profile area  -->
+    <!-- My profile  area  -->
     <div class="container">
       <div class="col-md-10 offset-md-1">
-        <div class="single-profile-page">
-            <div class="single-profile-info-area shadow-sm bg-white mt-4">
+        <div class="my-profile-page">
+            <div class="my-profile-info-area shadow-sm bg-white mt-4">
                 <div class="row">
                     <div class="col-md-3 col-lg-3 ml-0 pl-0 mr-0 pr-0">
-                        <div class="single-profile-info-img">
+                        <div class="my-profile-info-img">
                             <img src="assets/img/people/Blake-profile-photo-square.jpg" alt="">
-                            <div class="user-score shadow-lg">
-                              <p>user score</p> 
-                              <i class="fas fa-running"></i>
-                              <h4>202</h4>
+                            <div class="edit-profile-shadow">
+                              <button type="button">Change Profile Image</button>
+                            </div>
+                            <div class="show-icon">
+                              <a id="single_1" href="assets/img/people/Blake-profile-photo-square.jpg" title="Morning on Camaret (Tony N.)">
+                                <i class="fab fa-slideshare"></i>
+                              </a>
+                            
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="single-profile-info-details mt-3">
-                            <div class="single-profile-name-follow d-flex justify-content-between">
-                                <div class="single-profile-name">
-                                    <h2>Charles H</h2>
-                                </div>    
-                                <div class="single-profile-follow">
-                                    <button type="button" class="btn btn-primary">Follow</button>
-                                    <div class="btn-group dropleft">
-                                        <button type="button" class="btn btn-outline-primary rounded" data-toggle="dropdown" style="padding: 10px 14px;" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-angle-down"></i>
-                                        </button>
-                                        <div class="dropdown-menu">
-                                          <!-- Dropdown menu links -->
-                                          <a class="dropdown-item" href="#">Block</a>
-                                          <a class="dropdown-item" href="#">Report</a>
-                                        </div>
-                                      </div>
-                                </div>    
-                            </div>
-                        </div>
-                        <div class="single-profile-follow-post-details">
-                          <ul class="d-flex justify-content-start">
-                            <li><a href="#"><i class="fas fa-user"></i> <span>844</span> </a></li>
-                            <li><a href="#"><i class="fas fa-user-shield"> <span>2k</span></i></a></li>
-                            <li><a href="#"><i class="far fa-image"></i><span>500</span></a></li>
-                          </ul> 
-                        </div>
-                        <div class="single-profile-about-content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vel voluptatibus distinctio asperiores quod.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                      <div class="single-profile-qrcode-area text-center mt-3">
-                        <i class="fas fa-qrcode"></i>
-                        <div class="qrcode-text">
-                          <a href="#">Copy QR code</a>
-                          <p class="m-0 p-0">nitrx.com/user24345234</p>
-                          <a href="#">Copy link</a>
-                        </div>
+                    <div class="col-md-9 col-lg-9">
+                      <div class="edit-profile-form-area pl-3 pr-3">
+                        <form action="#" id="profileEditForm">
+                          <div class="form-group text-right">
+                             <div class="btn-group" role="group" aria-label="Basic example">
+                               <button type="button" class="btn btn-outline-primary rounded-0">Left</button>
+                               <button type="button" class="btn btn-outline-secondary rounded-0">Middle</button>
+                               <button type="button" class="btn btn-outline-danger rounded-0">Right</button>
+                             </div>
+                          </div>
+                          <div class="form-group">
+                           <label for="name">Name</label>  
+                           <input type="text" name="name" class="border-bottom-input" value="Jontaham ortaon">
+                         </div>
+                         <div class="form-group">
+                           <label for="name">Username</label>  
+                           <input type="text" name="usernmae" class="border-bottom-input" value="joe root">
+                         </div>
+                         <div class="form-group">
+                           <label for="name">Website</label>  
+                           <input type="text" name="website" class="border-bottom-input" value="Jontahan Ramos">
+                         </div>
+                         <div class="form-group">
+                           <label for="name">Bio</label>  
+                           <textarea name="bio" rows="5" class="form-control" placeholder="Describe your post optional"></textarea>
+                         </div>
+                         <div class="form-group text-center mt-4 mb-5">
+                           <input type="submit" class="btn btn-primary  rounded-0" value="Save changes">
+                         </div>
+                        </form>
                       </div>
                     </div>
                 </div>
+                
             </div>
-            <div class="single-profile-recent-post-area mt-5">
-              <p style="color: #9B9B9B;text-align: center;font-size: 18px;font-family: Roboto,sans-serif;">Recent post</p>
-              <div class="recent-post-main mt-3">
-                <div class="row">
-                  <!-- post single  -->
-                  <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
-                        <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
-                          <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--end of post single  -->
-                  <!-- post single  -->
-                  <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
-                        <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
-                          <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--end of post single  -->
-                  <!-- post single  -->
-                  <div class="col-md-4 col-lg-4 p-2">
-                    <div class="newsfeed-single">
-                      <div class="newsfeed-single-img">
-                        <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
-                        <div class="newsfeed-single-shadow">
-                          <h6>Just riding around town</h6>
-                          <div class="link-and-rate-btn d-flex justify-content-between">
-                            <div class="newsfeed-link">
-                              <a href="#">https://www.facebook.com/ <i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                            <button type="button" class="btn btn-sm btn-primary rounded-0 mr-2">Rate</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--end of post single  -->
-                </div>
-              </div>
-            </div>
+         
         </div> 
       </div>
     </div>
@@ -271,6 +208,8 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <!--====== Jquery easing js ======-->
   <script src="assets/js/jquery.easing.min.js"></script>
+  <!--====== fancybox js ======-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
   <!--====== Main js ======-->
   <script src="assets/js/main.js"></script>
   <script>
@@ -284,8 +223,22 @@
     });
   </script>
 
+<script>
+  $(document).ready(function() {
+    $("#single_1").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+      });
 
 
+
+
+   
+});
+</script>
 
 
 </body>

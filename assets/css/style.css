@@ -789,6 +789,8 @@ button:focus {
     font-size: 13px;
     margin: 6px 0;
     display: block;
+    text-decoration: none;
+    color: #858EFF;
 }
 .qrcode-text p {
     font-size: 13px;
@@ -825,3 +827,134 @@ button:focus {
     font-weight: bold;
 }
 /*=============end of single profile page css  ===============*/
+
+/* profile other follower page css  */
+.follower-folling-button.text-center a {
+    color: #7C7C7C;
+    text-decoration: none;
+    margin-right: 11px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 0px;
+}
+.follower-folling-button.text-center a:hover {
+    border-bottom: 2px solid #3c8bf0;
+}
+/*end of profile other follower page css  */
+
+
+
+
+/* my profile css  */
+.my-profile-info-img img {
+    position: relative;
+}
+.my-profile-info-img img {
+        width: 100%;
+}
+.my-post-single-img {
+    position: relative;
+}
+.my-post-single-shadow {
+    background: #444854a3;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: auto;
+    width: 97%;
+    cursor: pointer;
+    /* opacity: 0; */
+    transition: .5s;
+    height: 16%;
+    overflow: hidden;
+}
+
+.my-post-single-shadow h6 {
+    color: #ffffff;
+    padding: 10px 0 0 10px;
+}
+
+.link-and-rate-btn {
+    opacity: 0;
+}
+
+.my-post-single-shadow a {
+    color: #ffffff;
+    padding: 10px 0 0 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.my-post-single-shadow a i {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.newsmy-postfeed-single-img:hover .my-post-single-shadow {
+    height: 28%;
+}
+
+/* create my post single  */
+
+.create-my-post-single {
+    background: #4D5AFF;
+    width: 100%;
+    height: 100%;
+}
+.create-my-post-content a {
+    color: #ffffff;
+    text-decoration: none;
+    top: 35%;
+}
+.create-my-post-content {
+    position: relative;
+    text-align: center;
+    top: 36%;
+}
+.create-my-post-content a i {
+    font-size: 30px;
+}
+.create-my-post-content a p {
+    font-family: Roboto,sans-serif;
+    margin-top: 5px;
+}
+.my-post-action-area {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/*end of my profile css  */
+
+
+/* profile edit page css  */
+.edit-profile-shadow {
+    position: absolute;
+    /* text-align: center; */
+    top: 40%;
+    left: 8%;
+}
+.edit-profile-shadow button {
+    background: #2c504b8f;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.my-profile-info-img {
+    position: relative;
+}
+.show-icon i {
+    font-size: 25px;
+    bottom: 5px;
+    position: absolute;
+    left: 6px;
+    color: #fff;
+}
+/*end of profile edit page css  */
+/* create post modal css  */
+.create-postheader-text h5 {
+    font-family: Roboto,sans-serif;
+}
+/*end create post modal css  */
