@@ -1,0 +1,416 @@
+<html lang="en">
+
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--====== Title ======-->
+  <title>Post search page </title>
+  <!--====== Bootstrap css ======-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!--====== Animate css ======-->
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+  <!--====== Fontawesome css ======-->
+  <link href="assets/css/fontawesome.min.css" rel="stylesheet">
+  <!--====== flaticon css ======-->
+  <link href="assets/flaticon/flaticon.css" rel="stylesheet">
+  <!--====== Default css ======-->
+  <link href="assets/css/default.css" rel="stylesheet">
+  <!--====== Style css ======-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!--====== Responsive css ======-->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <!--google  font  -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style type="text/css">
+    @media all and (min-width: 992px) {
+      .navbar{ padding-top: 0; padding-bottom: 0; }
+      .navbar .has-megamenu{position:static!important;}
+      .navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+      .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header-area">
+    <div class="container-fluid">
+      <div class="row mx-5">
+        <div class="col-md-4">
+          <div class="logo">
+            <h2 class="m-0 mb-1"><img src="assets/img/logo-alt.png" style="width: 11%;"> Nitrix</h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="main_search mt-0 rounded" style="border: 1px solid #fff;border-radius: 0px;background: #fff;">
+            <form action="#" method="get">
+              <div class="input-group ">
+                <button type="button" class="btn rounded-0"><i class="fas fa-search"></i></button>
+                <input type="search" class="form-control rounded-0 pl-0" name="query"
+                  style="border: 1px solid transparent !important" placeholder="Search..." value="">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="header-main-icon d-flex justify-content-end">
+            <a href="#"><i class="fas fa-user-friends"></i></a>
+            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+            <a href="#" id="notification_icon"><i class="fas fa-bell"></i> <sup>4</sup></a>
+            <a href="#" id="feed-setting-button"><img src="assets/img/pp.png" style="    width: 38px;
+                    margin-top: -5px;"></a>
+          </div>
+          <div class="notification-area shadow-sm ">
+            <ul>
+              <li>
+                <div class="notification-single d-flex justify-content-between">
+                  <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, ex.</a>
+                  <div class="notification_time"><small>10m ago</small></div>
+                </div>
+               </li>
+               <li>
+                <div class="notification-single d-flex justify-content-between">
+                  <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, ex.</a>
+                  <div class="notification_time"><small>10m ago</small></div>
+                </div>
+               </li>
+            </ul>
+          </div>
+          <div class="feed-setting-area shadow-lg bg-light">
+            <ul>
+              <li>
+                <a href="#" class="d-flex justify-content-between">
+                  <span>Profile</span>
+                  <i class="fas fa-user"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-between">
+                  <span>Reports</span>
+                  <i class="far fa-chart-bar"></i>
+                </a>
+              </li>
+              </li>
+              <li>
+                <a href="wallet.html" class="d-flex justify-content-between">
+                  <span>Wallet</span>
+                  <i class="fas fa-wallet"></i>
+                </a>
+              </li>
+              <hr style="width: 20px; margin-left: 11px;">
+              <li>
+                <a href="setting.html" class="d-flex justify-content-between">
+                  <span>Edit setting</span>
+                  <i class="fas fa-cog"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-between">
+                  <span>get help</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-between">
+                  <span>Tos</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-between">
+                  <span>logout</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main panel start  -->
+  <div class="page-mainpanel pb-5"> 
+
+    <!-- Follower post  area  -->
+    <div class="container">
+      <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+        <!--  Follower post main  -->
+        <div class="follower-post-main shadow-sm pt-3 bg-white mt-3">
+            <div class="post-single">
+                <div class="post-authore-info p-3 d-flex justify-content-between">
+                    <div class="post-authore-details">
+                        <div class="post-authore-profile-info d-flex justify-content-start">
+                            <div class="post-authore-profile-picture">
+                                <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                            </div>
+                            <div class="post-authore-profile-info">
+                                <h6 class="search-profile-name">Jane</h6>
+                                <p class="post-date">Posted on jun 5,2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-status_setting">
+                        <button type="button" class="btn btn-primary rounded mr-3">Follow</button>
+                        <div class="btn-group dropleft">
+                          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" >
+                            <i class="fas fa-ellipsis-h" style="color: #ABB9C7;"></i>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target=".share-post-modal">share post</a>
+                            <a class="dropdown-item" href="#">Edit post</a>
+                            <a class="dropdown-item" href="#">Delete post</a>
+                          </div>
+                        </div>  
+                     
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" alt="">
+                </div>
+                <div class="post-comment-like-share-area d-flex justify-content-between p-3">
+                   <div class="like-share">
+                    <ul class="d-flex justify-content-start">
+                        <li><a href="#"><img src="assets/img/icon/nittix-icon.png" alt="" style="width: 20px;">200</a></li>
+                        <li><a href="#"><img src="assets/img/icon/view-icon.png" alt="" style="width: 20px;">1200</a></li>
+                        <li><a href="#"><img src="assets/img/icon/comment-icon.png" alt="" style="width: 20px;">1600</a></li>
+                        <li><a href="#"><img src="assets/img/icon/14-01.png" alt="" style="width: 15px;">1300</a></li>
+                    </ul> 
+                    <hr>   
+                   </div>
+                   <div class="qr-code">
+                        <i class="fas fa-qrcode"></i>
+                   </div>
+                </div>
+                <div class="post-content-area pl-3 pr-3">
+                  <h6>Just riding around the world</h6>
+                  <a href="#" class="btn btn-primary btn-sm badge-pill">https://www.facebook.com/ <i class="fas fa-edit" style="font-weight: normal;"></i></a>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae eveniet, dignissimos placeat earum ratione perferendis tempore consequatur, quaerat totam voluptates tempora tenetur unde praesentium ducimus, iste culpa quidem itaque laborum.</p>
+                </div>
+                <hr>
+                <div class="post-comment-area d-flex justify-content-bet pl-3 pr-3 pb-3">
+                  <div class="comment-id-pucture">
+                    <img src="assets/img/pp.png" alt="">
+                  </div>
+                  <div class="comment-form">
+                    <form action="#">
+                      <input type="text" class="border-bottom-input" placeholder="What do you have to say ?">
+                      </form>
+                  </div>
+                    <div class="total-comment-count">
+                      <h6>337 <small>comment</small></h6>
+                    </div>
+                </div>  
+                <div class="comment-show-area pl-3 pr-3 pb-5">
+                  <div class="comment-signle">
+                    <p class="m-0 p-0" style="font-size: 13px;">Rate this comment</p>
+                    <div class="comment-rating-area">
+                     <ul class="d-flex justify-content-start">
+                      <li><a href="#"><i class="fas fa-running"></i></a></li></li>
+                      <li><a href="#"><i class="fas fa-running"></i></a></li></li>
+                      <li><a href="#"><i class="fas fa-car"></i></a></li></li>
+                      <li><a href="#"><i class="fas fa-rocket"></i></a></li></li>
+                      <li><a href="#"><i class="fas fa-level-down-alt"></i></a></li></li>
+                     </ul>
+                    </div>
+                    <div class="comment-authore-profile-info d-flex justify-content-start">
+                      <div class="post-authore-profile-picture">
+                          <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                      </div>
+                      <div class="comment-authore-profile-info mt-1">
+                          <h6 class="search-profile-name">Jane <span style="margin-left: 15px;"><small>3day ago</small></span></h6>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, dignissimos!</p>
+
+                          <div class="comment-like-replay d-flex justify-content-start">
+                            <li><a href="#"><img src="assets/img/icon/nittix-icon.png" alt="" style="width: 15px;margin-right: 5px;">200</a></li>
+                            <li><a href="#"><i class="fas fa-reply mr-1"></i>reply</a></li>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of   Follower post main  -->
+          <!-- share post modal  -->
+    <div class="modal fade bd-example-modal-lg share-post-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            
+            <div class="modal-body m-0 p-0">
+              <div class="create-postheader-text text-center bg-primary p-3">
+                <h5 class="text-white">Share Post</h5>
+              </div>
+              <hr>
+              <div class="new-post-form m-3">
+                <form action="#" id="sharepostForm">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4">
+                                <div class="share-post-single">
+                                    <div class="share-post-single-img">
+                                      <img src="assets/img/newsfeed/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg" class="img-thumbnail" alt="">
+                                      <div class="share-post-single-shadow">
+                                        <h6>Just riding around town</h6>
+                                     </div>
+                                     </div>
+                                  </div>     
+                        </div>
+                        <div class="col-md-8 col-lg-8">
+                            <div class="form-group">
+                                <label for="share_message">Share message</label>
+                                <textarea name="share_message" id="share_message" rows="7" class="form-control" placeholder="Hey, chek out the awsome post i found"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <div class="user-found-by-letter d-flex justify-content-center mt-3">
+                                <a href="#">A</a>
+                                <a href="#">b</a>
+                                <a href="#">c</a>
+                                <a href="#">d</a>
+                                <a href="#">e</a>
+                                <a href="#">f</a>
+                                <a href="#">g</a>
+                                <a href="#">h</a>
+                                <a href="#">i</a>
+                                <a href="#">j</a>
+                                <a href="#">k</a>
+                                <a href="#">l</a>
+                                <a href="#">m</a>
+                                <a href="#">n</a>
+                                <a href="#">o</a>
+                                <a href="#">p</a>
+                                <a href="#">q</a>
+                                <a href="#">r</a>
+                                <a href="#">s</a>
+                                <a href="#">t</a>
+                                <a href="#">u</a>
+                                <a href="#">v</a>
+                                <a href="#">w</a>
+                                <a href="#">x</a>
+                                <a href="#">y</a>
+                                <a href="#">z</a>
+                            </div>
+                            <hr>
+                        </div>
+
+                     <div class="col-ms-12 col-lg-12">
+                        <div class="select-share-person mb-5">
+                           <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="people-search-single d-flex justify-content-lg-between">
+                                    <div class="profile-info d-flex justify-content-start">
+                                        <div class="search-profile-picture">
+                                            <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                                        </div>
+                                        <div class="search-profile-info">
+                                            <h6 class="search-profile-name">Jane</h6>
+                                            <p class="search-profile-title">veryjane</p>
+                                        </div>
+                                    </div>
+                                    <div class="share-status">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="people-search-single d-flex justify-content-lg-between">
+                                    <div class="profile-info d-flex justify-content-start">
+                                        <div class="search-profile-picture">
+                                            <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                                        </div>
+                                        <div class="search-profile-info">
+                                            <h6 class="search-profile-name">Jane</h6>
+                                            <p class="search-profile-title">veryjane</p>
+                                        </div>
+                                    </div>
+                                    <div class="share-status">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="people-search-single d-flex justify-content-lg-between">
+                                    <div class="profile-info d-flex justify-content-start">
+                                        <div class="search-profile-picture">
+                                            <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                                        </div>
+                                        <div class="search-profile-info">
+                                            <h6 class="search-profile-name">Jane</h6>
+                                            <p class="search-profile-title">veryjane</p>
+                                        </div>
+                                    </div>
+                                    <div class="share-status">
+                                        <button type="button" class="btn btn-primary btn-sm">Share</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="people-search-single d-flex justify-content-lg-between">
+                                    <div class="profile-info d-flex justify-content-start">
+                                        <div class="search-profile-picture">
+                                            <img src="assets/img/people/marius-ciocirlan.jpg" alt="">
+                                        </div>
+                                        <div class="search-profile-info">
+                                            <h6 class="search-profile-name">Jane</h6>
+                                            <p class="search-profile-title">veryjane</p>
+                                        </div>
+                                    </div>
+                                    <div class="share-status">
+                                        <button type="button" class="btn btn-primary btn-sm">Share</button>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                     </div> 
+                       
+                    </div>
+
+                    <div class="form-group text-center mb-5">
+                        <input type="submit" class="btn btn-primary rounded-0" value="Send post">
+                      </div>
+                </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end share post modal  -->
+      </div>
+    </div>
+     <!--end of Follower post  area  --> 
+  </div>
+  <!-- end of mainpanel  -->
+
+  <footer class="footer-area">
+    <div class="copyright-section">
+      <!-- <p>Copyright &copy; Joinoffers</p> -->
+    </div>
+  </footer>
+  <!--====== jquery js ======-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!--====== Popper js ======-->
+  <script src="assets/js/Popper.js"></script>
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!--====== Jquery easing js ======-->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <!--====== Main js ======-->
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).on('click', '#notification_icon', function () {
+      $('.feed-setting-area').hide();
+      $('.notification-area').slideToggle();
+    });
+    $(document).on('click', '#feed-setting-button', function () {
+      $('.notification-area').hide();
+      $('.feed-setting-area').slideToggle();
+    });
+  </script>
+
+
+
+
+
+</body>
+
+</html>

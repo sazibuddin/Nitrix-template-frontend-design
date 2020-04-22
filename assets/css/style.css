@@ -958,3 +958,40 @@ button:focus {
     font-family: Roboto,sans-serif;
 }
 /*end create post modal css  */
+
+/* share post single  */
+.share-post-single-img {
+    position: relative;
+}
+.share-post-single-shadow {
+    background: #444854a3;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: auto;
+    width: 95%;
+    cursor: pointer;
+    /* opacity: 0; */
+    transition: .5s;
+    height: 16%;
+    overflow: hidden;
+}
+
+.share-post-single-shadow h6 {
+    color: #ffffff;
+    padding: 10px 0 0 10px;
+}
+.user-found-by-letter a {
+    color: #ACB9C7;
+    font-size: 16px;
+    padding: 4px 7px;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    transition: .25s;
+    font-weight: 500;
+}
+.user-found-by-letter a:hover {
+    color: #312d2d;
+    font-weight: bold;
+}
+/*end of share post single  */
