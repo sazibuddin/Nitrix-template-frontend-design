@@ -41,8 +41,13 @@
 .header-area {
     background: linear-gradient(to right, #4A61FD, #369EEA);
     padding: 20px 0;
+    height: 87px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
-
 .header-area .logo h2 {
     color: #fff;
 }
@@ -54,6 +59,7 @@
 
 .page-mainpanel {
     background: #FAFAFA;
+    margin-top: 87px;
 }
 
 /* newfeed header area css  */
@@ -995,3 +1001,143 @@ button:focus {
     font-weight: bold;
 }
 /*end of share post single  */
+
+/* message inbox css  */
+.inbox-all-message-area {
+    width: 220px;
+    position: fixed;
+    left: 9px;
+    top: 87px;
+    z-index: 99;
+    background: #ffffff;
+    bottom: 0;
+    padding: 10px;
+    overflow-y: auto;
+}
+.inbox-single-message-area {
+    width: 80%;
+    margin-left: 230px;
+    /* margin-top: 87px; */
+}
+.inbox-all-message-img_name img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    font-family: Roboto,sans-serif;
+}
+.inbox-all-message-single {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.inbox-all-message-single:hover {
+    border-bottom: 1px solid #4571f8;
+}
+.new-message {
+    margin-top: -6px;
+}
+.new-message p {
+    color: #A3A5AE;
+    font-size: 13px;
+}
+.message-single-action button {
+    color: #B5B7BE;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+}
+.message-single-action button:hover  {
+    color: #B5B7BE;
+    background: #ffffff;
+    outline: none;
+}
+.message-single-action button i {
+    width: 30px;
+}
+.message-send-area {
+    border: 1px solid #fff;
+    /* border-radius: 46px; */
+    background: #F3F3F3;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 78.5%;
+    margin-left: 244px;
+    /* right: 45px; */
+}
+.send-button {
+    width: 76px;
+    text-align: center;
+    /* background: #fff; */
+}
+.send-button button {
+    background: #3c8bf0;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.inbox-single-message-body {
+    min-height: 70vh;
+}
+.message-single-name-message {
+    width: 80%;
+}
+.message-body-single-image img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.message-single-name-message {
+    margin-top: -15px;
+}
+.message-single-message {
+    background: #707BFF;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 0px 7px 7px 7px;
+    margin-top: 2px;
+}
+.message-single-name p {
+    color: #8B8E99;
+    font-family: Roboto,sans-serif;
+    margin: 0;
+    padding:0;
+}
+.message-single-message p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+
+}
+.send-message-single .message-single-message {
+    background: #E8E8E8;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 0px 7px 7px 7px;
+    margin-top: 2px;
+}
+.send-message-single .message-single-message p {
+    color: #535868;
+}
+.send-message-single .message-single-name-message {
+    margin-top: 0;
+}
+.send-message-single .message-body-single-image img {
+    margin-left: 10px;
+}
+.send-message-single {
+    margin: 25px 0;
+}
+.new-message-heading h5 {
+    color: #737784;
+}
+.new-message-heading p {
+    color: #737784;
+}
+
+/*end of message inbox css  */
